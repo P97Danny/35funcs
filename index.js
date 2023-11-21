@@ -45,7 +45,7 @@ const evenIn = (...array1) => array1.filter((x) => x % 2 === 0 );
 
 // 11 Write a function with a single array of numbers argument. Return the result of multiplying all the numbers. If the input contains just 1 number, return that number.
 const multiplyArray1 = (...array1) => (array1.forEach((item, i) => array1[i] = item *2), array1);
-const multiplyArray = (...array1) => (array1.forEach((item, i) => item = item * array[i]  ), array1);
+const multiplyArray = (...array1) => (array1.forEach((item, i) => item = item * array1[i]  ), array1);
 
 
 // 12 Write a function with a single array of numbers argument. Return the result of dividing the number from left to right. 
