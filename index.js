@@ -24,7 +24,7 @@ const max = (int1, int2) => Math.max(int1, int2);
 const maxDevide = (num1, num2) => Math.min(num1, num2) / Math.max(num1, num2);
 
 // 7 Write a function with two string arguments. Have it return the longest string.
-const maxStr = (str1, str2) => str1.length > str2.length ? str1 : str2;
+const maxStr = (str1, str2) => str1.length > str2.length ? str2 : str1;
 
 // 8 Write a function with a single number argument. Return a boolean that indicated wether this number is even.
 const even = (num1) => num1 % 2 === 0 ? true : false;
@@ -45,8 +45,6 @@ const evenIn = (...array1) => array1.filter((x) => x % 2 === 0 );
 
 // 11 Write a function with a single array of numbers argument. Return the result of multiplying all the numbers. If the input contains just 1 number, return that number.
 const multiplyArray = (...array1) => (array1.forEach((item, i) => array1[i] = item *2), array1);
-// const multiplyArray2 = (array1) => array1.map(item => item * 2);
-    
 
 // const multiplyArray1 = (array1) => {
 //     for (let i = 0; i < array1.length; i++) {
