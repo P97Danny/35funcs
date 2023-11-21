@@ -7,15 +7,8 @@ Write a function with two `number` arguments that returns double the first argum
 ## ✅ 2: double3
 Write a function with two `number` arguments that returns double the largest argument.
 
-## ❌ 3: repeat
+## ✅ 3: repeat
 Write a function with a `string` argument and a `number` argument that repeates the string from the first argument but repeated the amount of times equal to the second argument. If the second number is negative, return an empty string.
-### ⚠️ Errors:
-	- INPUT: a,5 
-	EXPECTED: aaaaa
-	ACTUAL: 
-	- INPUT: aloha,2 
-	EXPECTED: alohaaloha
-	ACTUAL: 
 
 ## ✅ 4: batman
 Write a function without any arguments. Have it return the string `'na'` repeated 10 times followed by the string `' batman!'`. Use the `repeat` function you used before to accomplish this.
@@ -31,29 +24,33 @@ Write a function with two `number` arguments. Have it return the smallest number
 ## ❌ 7: maxStr
 Write a function with two `string` arguments. Have it return the longest string.
 ### ⚠️ Errors:
-	- Function `maxStr` not found in index.js, did you export it?
+	- INPUT: aa,bb 
+	EXPECTED: aa
+	ACTUAL: bb
 
-## ❌ 8: even
+## ✅ 8: even
 Write a function with a single `number` argument. Return a boolean that indicated wether this number is even.
 ### 🧠 Tips:
 > use the `%`(remainder) operator to determine if something is divisible by something else. Read about it [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Remainder).
-### ⚠️ Errors:
-	- Function `even` not found in index.js, did you export it?
 
-## ❌ 9: evenBelow
+## ✅ 9: evenBelow
 Write a function with a single `number` argument. Return an array of all the numbers lower than this argument that are even.
-### ⚠️ Errors:
-	- Function `evenBelow` not found in index.js, did you export it?
 
-## ❌ 10: evenIn
+## ✅ 10: evenIn
 Write a function with a single `array of numbers` argument. Return an array of all the numbers in this array that are even.
-### ⚠️ Errors:
-	- Function `evenIn` not found in index.js, did you export it?
 
 ## ❌ 11: multiplyArray
 Write a function with a single `array of numbers` argument. Return the result of multiplying all the numbers. If the input contains just 1 number, return that number.
 ### ⚠️ Errors:
-	- Function `multiplyArray` not found in index.js, did you export it?
+	- INPUT: 0,2,4 
+	EXPECTED: 0
+	ACTUAL: 0,4,8
+	- INPUT: -1,4,8 
+	EXPECTED: -32
+	ACTUAL: -2,8,16
+	- INPUT: 8 
+	EXPECTED: 8
+	ACTUAL: 16
 
 ## ❌ 12: divideArray
 Write a function with a single `array of numbers` argument. Return the result of dividing the number from left to right. So the first number gets divided by the second and the result of that gets divided by the third (and so on..). If the array contains a zero, return zero. If the array contains just one number, return that number.
