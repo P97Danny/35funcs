@@ -12,13 +12,10 @@ Write a function with a `string` argument and a `number` argument that repeates 
 ### ⚠️ Errors:
 	- INPUT: a,5 
 	EXPECTED: aaaaa
-	ACTUAL: a
+	ACTUAL: 
 	- INPUT: aloha,2 
 	EXPECTED: alohaaloha
-	ACTUAL: aloha
-	- INPUT: b,-1 
-	EXPECTED: 
-	ACTUAL: b
+	ACTUAL: 
 
 ## ✅ 4: batman
 Write a function without any arguments. Have it return the string `'na'` repeated 10 times followed by the string `' batman!'`. Use the `repeat` function you used before to accomplish this.
