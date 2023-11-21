@@ -11,7 +11,7 @@ const double3 = (first, second) => Math.max(first, second) * 2;
 
 // Write a function with a string argument and a number argument that repeates the string from the first argument but repeated the amount of times equal to the second argument. 
 // If the second number is negative, return an empty string.
-const repeat = (string, number) => number < 0 ? '' : string.repeat(Number.isNumber());
+const repeat = (string, number) => number < 0 ? '' : string.repeat(Number.isInteger());
 
 // Write a function without any arguments. Have it return the string 'na' repeated 10 times followed by the string ' batman!'. 
 //Use the repeat function you used before to accomplish this.
