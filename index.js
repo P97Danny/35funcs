@@ -41,19 +41,19 @@ const evenBelow = (int1) => {
 };
 
 // 10 Write a function with a single array of numbers argument. Return an array of all the numbers in this array that are even.
-// const evenIn = (array1) => array1.filter((x) => x % 2 === 0 );
+const evenIn = (...array1) => array1.filter((x) => x % 2 === 0 );
 
 // 11 Write a function with a single array of numbers argument. Return the result of multiplying all the numbers. If the input contains just 1 number, return that number.
-const multiplyArray = (array1) => (array1.forEach((item, i) => array1[i] = item *2), array1);
-const multiplyArray2 = (array1) => array1.map(item => item * 2);
+const multiplyArray = (...array1) => (array1.forEach((item, i) => array1[i] = item *2), array1);
+// const multiplyArray2 = (array1) => array1.map(item => item * 2);
     
 
-const multiplyArray1 = (array1) => {
-    for (let i = 0; i < array1.length; i++) {
-        array1[i] = array1[i]*2;
-    }
-    return array1;
-};
+// const multiplyArray1 = (array1) => {
+//     for (let i = 0; i < array1.length; i++) {
+//         array1[i] = array1[i]*2;
+//     }
+//     return array1;
+// };
 
 
 // 12 Write a function with a single array of numbers argument. Return the result of dividing the number from left to right. 
@@ -68,7 +68,7 @@ console.log(multiplyArray([0, 1, 2, 3, 3, 4, 5, 6, 7, 8, 9, 10]));
 
 
 // Export the functions for the tests.
-module.exports = { double1, double2, double3, repeat, batman, max, maxDevide, maxStr, even, evenBelow, multiplyArray };
+module.exports = { double1, double2, double3, repeat, batman, max, maxDevide, maxStr, even, evenBelow, evenIn, multiplyArray };
 
 
 
