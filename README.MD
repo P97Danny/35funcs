@@ -47,13 +47,10 @@ Write a function with a single `array of numbers` argument. Return the result of
 ### ⚠️ Errors:
 	- INPUT: 0,2,4 
 	EXPECTED: 0
-	ACTUAL: 0,4,8
+	ACTUAL: 0,2,4
 	- INPUT: -1,4,8 
 	EXPECTED: -32
-	ACTUAL: -2,8,16
-	- INPUT: 8 
-	EXPECTED: 8
-	ACTUAL: 16
+	ACTUAL: -1,4,8
 
 ## ❌ 12: divideArray
 Write a function with a single `array of numbers` argument. Return the result of dividing the number from left to right. So the first number gets divided by the second and the result of that gets divided by the third (and so on..). If the array contains a zero, return zero. If the array contains just one number, return that number.
