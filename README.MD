@@ -10,17 +10,25 @@ Write a function with two `number` arguments that returns double the largest arg
 ## ❌ 3: repeat
 Write a function with a `string` argument and a `number` argument that repeates the string from the first argument but repeated the amount of times equal to the second argument. If the second number is negative, return an empty string.
 ### ⚠️ Errors:
-	- Function `repeat` not found in index.js, did you export it?
+	- INPUT: a,5 
+	EXPECTED: aaaaa
+	ACTUAL: a
+	- INPUT: aloha,2 
+	EXPECTED: alohaaloha
+	ACTUAL: aloha
+	- INPUT: b,-1 
+	EXPECTED: 
+	ACTUAL: b
 
 ## ❌ 4: batman
 Write a function without any arguments. Have it return the string `'na'` repeated 10 times followed by the string `' batman!'`. Use the `repeat` function you used before to accomplish this.
 ### ⚠️ Errors:
-	- Function `batman` not found in index.js, did you export it?
+	- INPUT: None 
+	EXPECTED: nananananananananana batman!
+	ACTUAL: na batman!
 
-## ❌ 5: max
+## ✅ 5: max
 Write a function with two `number` arguments. Have it return the largest number of the two.
-### ⚠️ Errors:
-	- Function `max` not found in index.js, did you export it?
 
 ## ❌ 6: maxDivide
 Write a function with two `number` arguments. Have it return the smallest number of the two divided by the largest number.
