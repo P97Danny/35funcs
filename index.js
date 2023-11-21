@@ -1,12 +1,19 @@
 // Write your functions here, make sure to export them.
 
-
-
+// 1 Write a function with one number argument that returns double the argument.
 const double1 = (first) => first * 2;
 
-const double2 =(first) => first*2 ;
+// Write a function with two number arguments that returns double the first argument.
+const double2 = (first, second) => first * 2;
 
-module.exports = { double1, double2 };
+// Write a function with two number arguments that returns double the largest argument.
+const double3 = (first, second) => Math.max(first, second) * 2;
+
+// Write a function with a string argument and a number argument that repeates the string from the first argument but repeated the amount of times equal to the second argument. 
+// If the second number is negative, return an empty string.
+const repeat = (string, number) => string.repeat(number);
+
+module.exports = { double1, double2, double3 };
 
 
 
