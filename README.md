@@ -1,30 +1,20 @@
 ## ✅ 0: double1
 Write a function with one `number` argument that returns double the argument.
 
-## ❌ 1: double2
+## ✅ 1: double2
 Write a function with two `number` arguments that returns double the first argument.
-### ⚠️ Errors:
-	- Function `double2` not found in index.js, did you export it?
 
-## ❌ 2: double3
+## ✅ 2: double3
 Write a function with two `number` arguments that returns double the largest argument.
-### ⚠️ Errors:
-	- Function `double3` not found in index.js, did you export it?
 
-## ❌ 3: repeat
+## ✅ 3: repeat
 Write a function with a `string` argument and a `number` argument that repeates the string from the first argument but repeated the amount of times equal to the second argument. If the second number is negative, return an empty string.
-### ⚠️ Errors:
-	- Function `repeat` not found in index.js, did you export it?
 
-## ❌ 4: batman
+## ✅ 4: batman
 Write a function without any arguments. Have it return the string `'na'` repeated 10 times followed by the string `' batman!'`. Use the `repeat` function you used before to accomplish this.
-### ⚠️ Errors:
-	- Function `batman` not found in index.js, did you export it?
 
-## ❌ 5: max
+## ✅ 5: max
 Write a function with two `number` arguments. Have it return the largest number of the two.
-### ⚠️ Errors:
-	- Function `max` not found in index.js, did you export it?
 
 ## ❌ 6: maxDivide
 Write a function with two `number` arguments. Have it return the smallest number of the two divided by the largest number.
@@ -34,29 +24,33 @@ Write a function with two `number` arguments. Have it return the smallest number
 ## ❌ 7: maxStr
 Write a function with two `string` arguments. Have it return the longest string.
 ### ⚠️ Errors:
-	- Function `maxStr` not found in index.js, did you export it?
+	- INPUT: aaaaa,a 
+	EXPECTED: aaaaa
+	ACTUAL: a
+	- INPUT: aa,b 
+	EXPECTED: aa
+	ACTUAL: b
 
-## ❌ 8: even
+## ✅ 8: even
 Write a function with a single `number` argument. Return a boolean that indicated wether this number is even.
 ### 🧠 Tips:
 > use the `%`(remainder) operator to determine if something is divisible by something else. Read about it [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Remainder).
-### ⚠️ Errors:
-	- Function `even` not found in index.js, did you export it?
 
-## ❌ 9: evenBelow
+## ✅ 9: evenBelow
 Write a function with a single `number` argument. Return an array of all the numbers lower than this argument that are even.
-### ⚠️ Errors:
-	- Function `evenBelow` not found in index.js, did you export it?
 
-## ❌ 10: evenIn
+## ✅ 10: evenIn
 Write a function with a single `array of numbers` argument. Return an array of all the numbers in this array that are even.
-### ⚠️ Errors:
-	- Function `evenIn` not found in index.js, did you export it?
 
 ## ❌ 11: multiplyArray
 Write a function with a single `array of numbers` argument. Return the result of multiplying all the numbers. If the input contains just 1 number, return that number.
 ### ⚠️ Errors:
-	- Function `multiplyArray` not found in index.js, did you export it?
+	- INPUT: 0,2,4 
+	EXPECTED: 0
+	ACTUAL: 0,2,4
+	- INPUT: -1,4,8 
+	EXPECTED: -32
+	ACTUAL: -1,4,8
 
 ## ❌ 12: divideArray
 Write a function with a single `array of numbers` argument. Return the result of dividing the number from left to right. So the first number gets divided by the second and the result of that gets divided by the third (and so on..). If the array contains a zero, return zero. If the array contains just one number, return that number.
